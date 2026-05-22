@@ -7,6 +7,7 @@ const (
 	MethodOPTIONS = "OPTIONS"
 	MethodRESPMOD = "RESPMOD"
 	MethodREQMOD  = "REQMOD"
+	MethodFILEMOD = "FILEMOD"
 )
 
 // the error messages
@@ -18,6 +19,8 @@ const (
 	ErrInvalidTCPMsg       = "invalid tcp message"
 	ErrREQMODWithNoReq     = "http request cannot be nil for method REQMOD"
 	ErrREQMODWithResp      = "http response must be nil for method REQMOD"
+	ErrFILEMODWithNoReq    = "http request cannot be nil for method FILEMOD"
+	ErrFILEMODWithResp     = "http response must be nil for method FILEMOD"
 	ErrRESPMODWithNoResp   = "http response cannot be nil for method RESPMOD"
 )
 

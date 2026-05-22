@@ -5,5 +5,6 @@ var (
 		MethodOPTIONS: true,
 		MethodRESPMOD: true,
 		MethodREQMOD:  true,
+		MethodFILEMOD: true,
 	}
 )

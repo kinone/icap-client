@@ -37,6 +37,12 @@ func validMethodWithHTTP(httpReq *http.Request, httpResp *http.Response, method 
 	if method == MethodREQMOD && httpResp != nil {
 		return false, errors.New(ErrREQMODWithResp)
 	}
+	if method == MethodFILEMOD && httpReq == nil {
+		return false, errors.New(ErrFILEMODWithNoReq)
+	}
+	if method == MethodFILEMOD && httpResp != nil {
+		return false, errors.New(ErrFILEMODWithResp)
+	}
 	if method == MethodRESPMOD && httpResp == nil {
 		return false, errors.New(ErrRESPMODWithNoResp)
 	}

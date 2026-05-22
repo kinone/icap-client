@@ -1,15 +1,15 @@
 # icap-client
 
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
-[![Project status](https://img.shields.io/badge/version-0.1.0-green.svg)](https://github.com/egirna/icap-client/releases)
-[![GoDoc](https://godoc.org/github.com/egirna/icap-client?status.svg)](https://godoc.org/github.com/egirna/icap-client)
+[![Project status](https://img.shields.io/badge/version-0.1.0-green.svg)](https://github.com/kinone/icap-client/releases)
+[![GoDoc](https://godoc.org/github.com/kinone/icap-client?status.svg)](https://godoc.org/github.com/kinone/icap-client)
 
 
 Talk to the ICAP servers using probably the first ICAP client package in GO!
 
 ### Installing
 ```console
-go get -u github.com/egirna/icap-client
+go get -u github.com/kinone/icap-client
 
 ```
 
@@ -18,7 +18,7 @@ go get -u github.com/egirna/icap-client
 **Import The Package**
 
 ```go
-import ic "github.com/egirna/icap-client"
+import ic "github.com/kinone/icap-client"
 
 ```
 
