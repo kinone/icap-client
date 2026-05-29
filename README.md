@@ -83,7 +83,7 @@ By default the icap-client will dump the debugging logs to the standard output(s
   ic.SetDebugOutput(f)
 ```
 
-For more details, see the [docs](https://godoc.org/github.com/egirna/icap-client) and [examples](examples/).
+For more details, see the [docs](https://godoc.org/github.com/kinone/icap-client) and [examples](examples/).
 
 
 ### Contributing

@@ -9,7 +9,7 @@
 // 	  "net/http"
 // 	  "time"
 //
-// 	  ic "github.com/egirna/icap-client"
+// 	  ic "github.com/kinone/icap-client"
 //  )
 //
 //  func main() {
@@ -69,5 +69,5 @@
 // 	 fmt.Println(resp.StatusCode)
 //
 //  }
-// See https://github.com/egirna/icap-client/examples.
+// See https://github.com/kinone/icap-client/examples.
 package icapclient
